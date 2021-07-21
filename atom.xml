@@ -6,7 +6,7 @@
   <link href="http://cwlo2f.github.io/atom.xml" rel="self"/>
   
   <link href="http://cwlo2f.github.io/"/>
-  <updated>2021-07-07T23:04:15.245Z</updated>
+  <updated>2021-07-21T18:14:03.187Z</updated>
   <id>http://cwlo2f.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Educational Codeforces Round 111</title>
+    <link href="http://cwlo2f.github.io/2021/07/22/Educational-Codeforces-Round-111/"/>
+    <id>http://cwlo2f.github.io/2021/07/22/Educational-Codeforces-Round-111/</id>
+    <published>2021-07-21T18:14:03.000Z</published>
+    <updated>2021-07-21T18:14:03.187Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="콘테스트-기록"><a href="#콘테스트-기록" class="headerlink" title="콘테스트 기록"></a>콘테스트 기록</h1><p>A, B를 어렵지 않게 풀었고 C는 아이디어를 생각해내는데 시간을 좀 썼다. D, E, F는 무진장 어려웠다. A는 00:04, B는 00:11, C는 00:35에 풀었다. D, E, F는 풀지 못했다.</p><h1 id="1550A-Find-The-Array"><a href="#1550A-Find-The-Array" class="headerlink" title="1550A Find The Array"></a>1550A Find The Array</h1><p>길이 $n$인 수열로 최대 $n^2$까지 만들 수 있다. 길이 $m$인 수열의 합이 $l$일 때, 가장 큰 항의 값을 1 줄임으로써 길이 $m$이고 합이 $l - 1$인 수열을 만들 수 있다. $\left\lfloor \sqrt{n - 1} \right\rfloor + 1$가 원하는 답이 된다.</p><h1 id="1550B-Maximum-Cost-Deletion"><a href="#1550B-Maximum-Cost-Deletion" class="headerlink" title="1550B Maximum Cost Deletion"></a>1550B Maximum Cost Deletion</h1><p>연속하는 문자열을 지운 횟수를 $k$라고 할 때, 전체 점수는 $an + bk$이다. 연속하는 조각의 개수가 $m$일 때, 이는 최소 $m / 2 + 1$번 지워야 하고, 최대 $n$번까지 지울 수 있다. $an + \max\{b \cdot (m/2 + 1), bn\}$이 원하는 답이 된다.</p><h1 id="1550C-Manhattan-Subarrays"><a href="#1550C-Manhattan-Subarrays" class="headerlink" title="1550C Manhattan Subarrays"></a>1550C Manhattan Subarrays</h1><p>$d(p_i, p_k) = d(p_i, p_j) + d(p_j, p_k)$인 경우, $j$는 $i$와 $k$ 사이에 있다. $i &lt; k$를 가정하면, $i &lt; j &lt; k$이다. 또한 $a_j$는 $a_i, a_k$ 사이에 있고, $a_i, a_j, a_k$는 단조증가 혹은 단조감소이다.</p><p>Erdős-Szekeres 정리에 의해 길이가 5인 수열은 항상 길이 3인 단조증가하는 부분수열 또는 길이 3인 단조감소하는 부분수열을 포함하고, 따라서 이는 항상 나쁜 수열이다. 각 $l = 1, \cdots, n$에 대해 $a_l, a_{l + 1}, a_{l + 2}, a_{l + 3}$의 좋은 부분 수열의 개수를 찾아서 더하면 원하는 답이 된다.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;콘테스트-기록&quot;&gt;&lt;a href=&quot;#콘테스트-기록&quot; class=&quot;headerlink&quot; title=&quot;콘테스트 기록&quot;&gt;&lt;/a&gt;콘테스트 기록&lt;/h1&gt;&lt;p&gt;A, B를 어렵지 않게 풀었고 C는 아이디어를 생각해내는데 시간을 좀 썼다. D, E, F</summary>
+      
+    
+    
+    
+    <category term="Codeforces" scheme="http://cwlo2f.github.io/categories/Codeforces/"/>
+    
+    
+    <category term="Problem-Solving" scheme="http://cwlo2f.github.io/tags/Problem-Solving/"/>
+    
+    <category term="Codeforces" scheme="http://cwlo2f.github.io/tags/Codeforces/"/>
+    
+  </entry>
   
   <entry>
     <title>Codeforces Round #730</title>
